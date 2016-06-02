@@ -10,6 +10,3 @@ end
 get '/:keyword' do |keyword|
   Indico.sentiment_hq(keyword).to_json
 end
-
-helpers do
-end
